@@ -7,7 +7,7 @@ Summary:	Want - A generalisation of "wantarray"
 Summary(pl):	Want - Generalizacja funkcji wantarray()
 Name:		perl-Want
 Version:	0.05
-Release:	1
+Release:	2
 License:	?
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/R/RO/ROBIN/%{pdir}-%{version}.tar.gz
