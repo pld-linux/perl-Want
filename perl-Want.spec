@@ -11,6 +11,7 @@ Release:	2
 License:	?
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/R/RO/ROBIN/%{pdir}-%{version}.tar.gz
+# Source0-md5:	2a6d9ebc5a97dcb01f0c07cfbd9439cf
 BuildRequires:	perl-devel >= 5.6
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
