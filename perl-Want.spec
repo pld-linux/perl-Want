@@ -9,7 +9,8 @@ Summary(pl):	Want - uogólnienie funkcji wantarray()
 Name:		perl-Want
 Version:	0.07
 Release:	1
-License:	?
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/R/RO/ROBIN/%{pdir}-%{version}.tar.gz
 # Source0-md5:	55dda301deb9bd5748c342eef7c1ec08
