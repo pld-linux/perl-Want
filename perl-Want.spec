@@ -3,8 +3,8 @@
 # _without_tests - do not perform "make test"
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Want
-Summary:	Want - A generalisation of "wantarray"
-Summary(pl):	Want - Generalizacja funkcji wantarray()
+Summary:	Want - a generalisation of "wantarray"
+Summary(pl):	Want - uogólnienie funkcji wantarray()
 Name:		perl-Want
 Version:	0.07
 Release:	1
