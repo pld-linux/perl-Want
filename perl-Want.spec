@@ -10,7 +10,7 @@ Version:	0.05
 Release:	1
 License:	?
 Group:		Development/Languages/Perl
-Source0:	ftp://ftp.cpan.org/pub/CPAN/authors/id/R/RO/ROBIN/%{pdir}-%{version}.tar.gz
+Source0:	http://www.cpan.org/authors/id/R/RO/ROBIN/%{pdir}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
 BuildRequires:	rpm-perlprov >= 3.0.3-26
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
