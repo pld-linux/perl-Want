@@ -7,12 +7,12 @@ Summary:	Want - A generalisation of "wantarray"
 Summary(pl):	Want - Generalizacja funkcji wantarray()
 Name:		perl-Want
 Version:	0.05
-Release:	1
+Release:	2
 License:	?
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/authors/id/R/RO/ROBIN/%{pdir}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-26
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_noautoreq	'perl(v5.6)'
@@ -31,7 +31,8 @@ zwracane przez nie warto¶ci.
 %setup -q -n %{pdir}-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %{!?_without_tests:%{__make} test}
@@ -46,8 +47,8 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{perl_sitearch}/*.pm
-%dir %{perl_sitearch}/auto/Want
-%{perl_sitearch}/auto/Want/*.bs
-%attr(755,root,root) %{perl_sitearch}/auto/Want/*.so
+%{perl_vendorarch}/*.pm
+%dir %{perl_vendorarch}/auto/Want
+%{perl_vendorarch}/auto/Want/*.bs
+%attr(755,root,root) %{perl_vendorarch}/auto/Want/*.so
 %{_mandir}/man3/*
