@@ -5,7 +5,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define		pdir	Want
 Summary:	Want - a generalisation of "wantarray"
-Summary(pl):	Want - uogólnienie funkcji wantarray()
+Summary(pl.UTF-8):   Want - uogÃ³lnienie funkcji wantarray()
 Name:		perl-Want
 Version:	0.12
 Release:	1
@@ -25,10 +25,10 @@ This module generalises the mechanism of the wantarray function, allowing
 a function to determine in some detail how its return value is going to
 be immediately used.
 
-%description -l pl
-Ten modu³ generalizuje mechanizm funkcji wantarray, pozwalaj±c funkcjom
-na okre¶lenie niektórych szczegó³ów tego, w jaki sposób u¿ywane bêd±
-zwracane przez nie warto¶ci.
+%description -l pl.UTF-8
+Ten moduÅ‚ generalizuje mechanizm funkcji wantarray, pozwalajÄ…c funkcjom
+na okreÅ›lenie niektÃ³rych szczegÃ³Å‚Ã³w tego, w jaki sposÃ³b uÅ¼ywane bÄ™dÄ…
+zwracane przez nie wartoÅ›ci.
 
 %prep
 %setup -q -n %{pdir}-%{version}
