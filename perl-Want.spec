@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Want
 Summary:	Want - a generalisation of "wantarray"
 Summary(pl.UTF-8):	Want - uogólnienie funkcji wantarray()
